@@ -76,11 +76,11 @@ This project was initially developed for Microsoft Azure. [Necessary changes for
 - Add comments to lib
 
 ### Documentation
-- Update metric ideas
+- ~~Update metric ideas~~
 - ~~Change this readme to explain the repository and its structure~~
 - Explain components of metrics server in Readme
 - Expand lib Readme
-- Explain dumps in resources
+- ~~Explain dumps in resources~~
 - ~~Grafana dashboard import~~
 
 ### Publishing
