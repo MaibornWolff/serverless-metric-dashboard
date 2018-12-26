@@ -4,7 +4,7 @@
 For this work I identified three types of extractable information:
 
 1. Aggregated metrics. These metrics can be observed by Prometheus over time and allow the usage of Prometheus' PromQL features. These metrics are aggregated (summed) by function name
-2. Invocation specific metrics (without aggregation). These metrics are not intended for usage with Prometheus as these values don't change over time (or can only be observed for a relatively short time -> less than 15/10/9 minutes due to the limited execution time of serverless functions).
+2. Invocation specific metrics (without aggregation)
 3. Application specific information and runtime environment metadata on invocation level. This can be anything not included in 1. and 2. E.g.: Function metadata, logs, etc. Type 3 can't be processed by Prometheus but can be passed to a metric as a label
 
 # Metrics
@@ -27,8 +27,7 @@ Basic operations can be applied in Prometheus for example average, rate etc.
 - Indirect metrics: Cost estimation using metrics like invocation, RAM Usage, execution time
 
 ### Unique invocation metrics
-// TODO explain potential problems at extreme scale
-These metrics should only be pushed to Prometheus if necessary. To prevent that metrics can be overwritten in the Pushgateway it is necessary to include a unique label value for each invocated function (for example the invocation id provided by the cloud provider). These metrics will be exposed to Prometheus for ever although they can't be changed after the function finished. These metrics should be deleted at some point because Prometheus will continue to scrape them (although they will never provide any useful information anymore). Deleting metrics could be achieved by restarting the pushgateway.
+Prometheus: To prevent that metrics can be overwritten in the Pushgateway it is necessary to include a unique label value for each invocated function (for example the invocation id provided by the cloud provider). These metrics will be exposed to Prometheus for ever although they can't be changed after the function finished. Prometheus will continue to scrape these metrics (although they will never provide any useful information anymore). Deleting metrics could be achieved by restarting the Pushgateway. This approach can get problematic at very large scale because Prometheus has to scrape many different metrics
 
 - Logging start & end
 - Execution time
