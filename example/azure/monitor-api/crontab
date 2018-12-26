@@ -1,0 +1,1 @@
+* *     * * *   root    /home/metrics/test.sh > /home/metrics/functionExecutionUnitsLog.txt 2> /home/metrics/error.txt; sudo hwclock --show > /home/metrics/lastexecuted.txt

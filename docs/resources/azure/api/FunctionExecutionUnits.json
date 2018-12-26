@@ -1,0 +1,106 @@
+{
+  "cost": 0.0,
+  "interval": "1 day, 0:00:00",
+  "namespace": "Microsoft.Web/sites",
+  "resourceregion": "westeurope",
+  "timespan": "2018-11-25T00:00:00Z/2018-12-04T12:41:39Z",
+  "value": [
+    {
+      "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/Microsoft.Insights/metrics/FunctionExecutionUnits",
+      "name": {
+        "localizedValue": "Function Execution Units",
+        "value": "FunctionExecutionUnits"
+      },
+      "resourceGroup": "<resource-group>",
+      "timeseries": [
+        {
+          "data": [
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-11-25T00:00:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-11-26T00:00:00+00:00",
+              "total": 6480818560.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-11-27T00:00:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-11-28T00:00:00+00:00",
+              "total": 2691079552.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-11-29T00:00:00+00:00",
+              "total": 116102016.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-11-30T00:00:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-12-01T00:00:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-12-02T00:00:00+00:00",
+              "total": 0.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-12-03T00:00:00+00:00",
+              "total": 239640960.0
+            },
+            {
+              "average": null,
+              "count": null,
+              "maximum": null,
+              "minimum": null,
+              "timeStamp": "2018-12-04T00:00:00+00:00",
+              "total": 0.0
+            }
+          ],
+          "metadatavalues": []
+        }
+      ],
+      "type": "Microsoft.Insights/metrics",
+      "unit": "Count"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "disabled": false,
+    "bindings": [
+      {
+        "name": "message",
+        "type": "queueTrigger",
+        "direction": "in",
+        "queueName": "metadata-extraction",
+        "connection": "AzureWebJobsStorage"
+      },
+      {
+        "name": "exifData",
+        "type": "cosmosDB",
+        "databaseName": "imagedata",
+        "collectionName": "exif",
+        "createIfNotExists": true,
+        "connectionStringSetting": "COSMOSDB_CONNECTION",
+        "direction": "out"
+      }
+    ]
+  }
+  

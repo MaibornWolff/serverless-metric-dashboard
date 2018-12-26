@@ -1,0 +1,12 @@
+{
+    "name": "image-processor-durable",
+    "version": "0.1",
+    "dependencies": {
+        "azure-storage": "^2.10.2",
+        "durable-functions": "^1.0.0",
+        "exif": "^0.6.0",
+        "jimp": "^0.5.6",
+        "promes": "^0.1.0",
+        "uuid": "^3.3.2"
+    }
+}

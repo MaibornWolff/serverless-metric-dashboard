@@ -1,0 +1,18 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "images-unprocessed-durable/{name}.jpg",
+      "connection": "AzureWebJobsStorage",
+      "datatype": "binary"
+    },
+    {
+      "name": "starter",
+      "type": "orchestrationClient",
+      "direction": "out"
+    }
+  ]
+}

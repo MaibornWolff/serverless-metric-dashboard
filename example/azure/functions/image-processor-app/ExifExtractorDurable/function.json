@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "blobname",
+      "type": "activityTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "exifData",
+      "type": "cosmosDB",
+      "databaseName": "imagedata",
+      "collectionName": "exif",
+      "createIfNotExists": true,
+      "connectionStringSetting": "COSMOSDB_CONNECTION",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

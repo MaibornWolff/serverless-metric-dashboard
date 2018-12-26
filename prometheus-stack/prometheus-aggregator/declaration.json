@@ -1,0 +1,27 @@
+[
+    {
+        "name": "function_invocations_total",
+        "type": "counter",
+        "help": "Total number of function invocations"
+    },
+    {
+        "name": "function_execution_time_total",
+        "type": "counter",
+        "help": "The total function execution time"
+    },
+    {
+        "name": "function_finished_total",
+        "type": "counter",
+        "help": "The total number of functions that reached the finish"
+    },
+    {
+        "name": "function_gigabyte_seconds_total",
+        "type": "counter",
+        "help": "The total gigabyte seconds used by a function"
+    },
+    {
+        "name": "azure_monitor_gigabyteseconds_total",
+        "type": "counter",
+        "help": "The total reported GB-seconds by the Azure Monitor with about 2 minutes delay"
+    }
+]

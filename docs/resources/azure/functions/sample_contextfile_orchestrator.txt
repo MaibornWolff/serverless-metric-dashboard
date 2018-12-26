@@ -1,0 +1,37 @@
+Context {
+  invocationId: 'ab73f31c-71e5-4a3d-ad80-a46dc7f2effa',
+  executionContext:
+   { invocationId: 'ab73f31c-71e5-4a3d-ad80-a46dc7f2effa',
+     functionName: 'ImageProcessorOrchestrator',
+     functionDirectory: 'D:\\home\\site\\wwwroot\\ImageProcessorOrchestrator' },
+  bindings: { context: { history: [Array], input: 'Hallo' } },
+  log:
+   { [Function]
+     error: [Function: error],
+     warn: [Function: warn],
+     info: [Function: info],
+     verbose: [Function: verbose] },
+  bindingData:
+   { invocationId: 'ab73f31c-71e5-4a3d-ad80-a46dc7f2effa',
+     context: { history: [Array], input: 'Hallo' },
+     sys:
+      { methodName: 'ImageProcessorOrchestrator',
+        utcNow: '2018-11-26T10:03:55.9201357Z',
+        randGuid: 'd4671a99-a145-4b25-af2a-b327871fb5c9' },
+     input: 'Hallo' },
+  done: [Function],
+  df:
+   { instanceId: undefined,
+     isReplaying: undefined,
+     parentInstanceId: undefined,
+     callActivity: [Function: bound callActivity],
+     callActivityWithRetry: [Function: bound callActivityWithRetry],
+     callSubOrchestrator: [Function: bound callSubOrchestrator],
+     callSubOrchestratorWithRetry: [Function: bound callSubOrchestratorWithRetry],
+     continueAsNew: [Function: bound continueAsNew],
+     createTimer: [Function: bound createTimer],
+     getInput: [Function: bound getInput],
+     setCustomStatus: [Function: bound setCustomStatus],
+     waitForExternalEvent: [Function: bound waitForExternalEvent],
+     Task: { all: [Function: bound all], any: [Function: bound any] },
+     currentUtcDateTime: '2018-11-26T10:03:55.9182651Z' } }

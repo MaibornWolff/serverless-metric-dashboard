@@ -1,0 +1,55 @@
+Context {
+  invocationId: '3f0c0dcd-674b-43ac-b75a-a885b4e3a32a',
+  executionContext:
+   { invocationId: '3f0c0dcd-674b-43ac-b75a-a885b4e3a32a',
+     functionName: 'BlobStart',
+     functionDirectory: 'D:\\home\\site\\wwwroot\\BlobStart' },
+  bindings:
+   { myBlob:
+      <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 08 6a 00 00 03 24 08 06 00 00 00 ea 58 54 53 00 00 0c 49 69 43 43 50 49 43 43 20 50 72 6f 66 69 ... > },
+  log:
+   { [Function]
+     error: [Function: error],
+     warn: [Function: warn],
+     info: [Function: info],
+     verbose: [Function: verbose] },
+  bindingData:
+   { invocationId: '3f0c0dcd-674b-43ac-b75a-a885b4e3a32a',
+     blobTrigger:
+      'images-unprocessed/Bildschirmfoto 2018-11-15 um 17.51.21.png',
+     uri:
+      'https://<storage-id>.blob.core.windows.net/images-unprocessed/Bildschirmfoto%202018-11-15%20um%2017.51.21.png',
+     properties:
+      { cacheControl: null,
+        contentDisposition: null,
+        contentEncoding: null,
+        contentLanguage: null,
+        length: 875289,
+        contentMD5: null,
+        contentType: 'image/png',
+        eTag: '"0x8D6538673901ADD"',
+        created: '2018-11-26T10:03:44+00:00',
+        lastModified: '2018-11-26T10:03:44+00:00',
+        blobType: 2,
+        leaseStatus: 2,
+        leaseState: 1,
+        leaseDuration: 0,
+        pageBlobSequenceNumber: null,
+        appendBlobCommittedBlockCount: null,
+        isServerEncrypted: true,
+        isIncrementalCopy: false,
+        standardBlobTier: 0,
+        rehydrationStatus: null,
+        premiumPageBlobTier: null,
+        blobTierInferred: false,
+        blobTierLastModifiedTime: null,
+        deletedTime: null,
+        remainingDaysBeforePermanentDelete: null },
+     metadata: {},
+     name: 'Bildschirmfoto 2018-11-15 um 17.51.21',
+     blobextension: 'png',
+     sys:
+      { methodName: 'BlobStart',
+        utcNow: '2018-11-26T10:03:46.3554237Z',
+        randGuid: '97742bf0-c65a-4eb6-ab6c-754261095fac' } },
+  done: [Function] }

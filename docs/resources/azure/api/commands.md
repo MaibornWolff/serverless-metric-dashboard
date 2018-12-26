@@ -1,0 +1,3 @@
+FunctionExecutionUnits.json `az monitor metrics list --resource /subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name> --metric FunctionExecutionUnits --aggregation Total --interval PT24H --start-time 2018-11-25T00:00:00Z`
+
+FunctionExecutionCount.json `az monitor metrics list --resource /subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name> --metric FunctionExecutionCount --aggregation Total --interval PT24H --start-time 2018-11-25T00:00:00Z`

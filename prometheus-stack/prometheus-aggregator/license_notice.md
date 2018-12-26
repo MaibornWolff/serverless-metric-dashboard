@@ -1,0 +1,1 @@
+The "prometheus-aggregator" by Peter Bourgon is licensed with the [Apache License 2.0](https://github.com/peterbourgon/prometheus-aggregator/blob/master/LICENSE).

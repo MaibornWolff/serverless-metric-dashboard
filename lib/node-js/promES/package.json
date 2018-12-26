@@ -1,0 +1,30 @@
+{
+  "name": "promes",
+  "version": "0.1.0",
+  "description": "PromES: Prometheus Exporter for Serverless applications, exposing cost and performance related metrics of your running functions",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Roman Buchholz",
+  "license": "BSD 2-Clause License",
+  "repository": "github:MaibornWolff/serverless-metric-dashboard",
+  "keywords": [
+    "serverless",
+    "prometheus",
+    "prometheus-exporter",
+    "monitoring",
+    "azure-functions",
+    "aws-lambda",
+    "google-cloud-functions",
+    "gcp-functions",
+    "metric-exporter"
+  ],
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.2"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  }
+}

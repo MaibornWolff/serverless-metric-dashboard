@@ -1,0 +1,15 @@
+{
+  "name": "promces",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roman Buchholz",
+  "license": "",
+  "dependencies": {
+    "prom-client": "^11.1.3",
+    "promes": "^0.1.0"
+  }
+}

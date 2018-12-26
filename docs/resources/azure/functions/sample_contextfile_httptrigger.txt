@@ -1,0 +1,105 @@
+Context {
+  invocationId: '65e48af5-3bb9-471f-a2dc-808e9b190a21',
+  executionContext: { invocationId: '65e48af5-3bb9-471f-a2dc-808e9b190a21',
+     functionName: 'HelloWorld',
+     functionDirectory: 'D:\\home\\site\\wwwroot\\HelloWorld'
+  },
+  bindings: { req: { method: 'GET',
+        url: 'https: //<function-app-name>.azurewebsites.net/api/HelloWorld',
+        originalUrl: 'https: //<function-app-name>.azurewebsites.net/api/HelloWorld',
+        headers: [Object
+      ],
+        query: {},
+        params: {},
+        body: undefined,
+        rawBody: undefined
+    }
+  },
+  log: {
+    [Function
+    ]
+     error: [Function: error
+    ],
+     warn: [Function: warn
+    ],
+     info: [Function: info
+    ],
+     verbose: [Function: verbose
+    ]
+  },
+  bindingData: { invocationId: '65e48af5-3bb9-471f-a2dc-808e9b190a21',
+     '$request': { http: [Object
+      ], data: 'http'
+    },
+     query: {},
+     headers: { accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,* /*;q=0.8',
+        'accept-Encoding': 'gzip, deflate, br',
+        'accept-Language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
+        connection: 'Keep-Alive',
+        host: '<function-app-name>.azurewebsites.net',
+        'max-Forwards': '9',
+        'user-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+        'upgrade-insecure-requests': '1',
+        'x-WAWS-Unencoded-URL': '/api/HelloWorld',
+        'cLIENT-IP': '10.0.128.33:36092',
+        'iS-SERVICE-TUNNELED': '0',
+        'x-ARR-LOG-ID': '6251ed2c-9bf1-449d-8e5b-3d9b6430d401',
+        'dISGUISED-HOST': '<function-app-name>.azurewebsites.net',
+        'x-SITE-DEPLOYMENT-ID': '<function-app-name>',
+        'wAS-DEFAULT-HOSTNAME': '<function-app-name>.azurewebsites.net',
+        'x-Original-URL': '/api/HelloWorld',
+        'x-Forwarded-For': '185.88.92.124:60614',
+        'x-ARR-SSL': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+        'x-Forwarded-Proto': 'https' },
+     req: { http: [Object], data: 'http' },
+     sys: 
+      { methodName: 'HelloWorld',
+        utcNow: '2018-11-06T13:59:21.1144675Z',
+        randGuid: '1cd31709-f137-411f-8774-2c3461b3da66' } },
+  done: [Function],
+  req: 
+   Request {
+     method: 'GET',
+     url: 'https://<function-app-name>.azurewebsites.net/api/HelloWorld',
+     originalUrl: 'https://<function-app-name>.azurewebsites.net/api/HelloWorld',
+     headers: 
+      { accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
+        connection: 'Keep-Alive',
+        host: '<function-app-name>.azurewebsites.net',
+        'max-forwards': '9',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+        'upgrade-insecure-requests': '1',
+        'x-waws-unencoded-url': '/api/HelloWorld',
+        'client-ip': '10.0.128.33: 36092',
+        'is-service-tunneled': '0',
+        'x-arr-log-id': '6251ed2c-9bf1-449d-8e5b-3d9b6430d401',
+        'disguised-host': '<function-app-name>.azurewebsites.net',
+        'x-site-deployment-id': '<function-app-name>',
+        'was-default-hostname': '<function-app-name>.azurewebsites.net',
+        'x-original-url': '/api/HelloWorld',
+        'x-forwarded-for': '185.88.92.124: 60614',
+        'x-arr-ssl': '2048|256|C=US, S=Washington, L=Redmond, O=Microsoft Corporation, OU=Microsoft IT, CN=Microsoft IT TLS CA 4|CN=*.azurewebsites.net',
+        'x-forwarded-proto': 'https'
+    },
+     query: {},
+     params: {},
+     body: undefined,
+     rawBody: undefined
+  },
+  res: 
+   Response {
+     headers: {},
+     send: [Function: end
+    ],
+     set: [Function: setHeader
+    ],
+     header: [Function: setHeader
+    ],
+     get: [Function: getHeader
+    ],
+     _done: [Function
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+version: '2.0'
+
+networks:
+  network1:
+
+volumes:
+  prometheus_data:
+  grafana_data:
+
+services:
+  prometheus:
+    build: .
+    ports:
+      - 9090:9090
+    networks:
+      - network1
+    restart: always
+    volumes:
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    depends_on:
+      - pushgateway
+
+  pushgateway:
+    image: prom/pushgateway
+    ports:
+      - 9091:9091
+    networks:
+      - network1
+    restart: always
+
+  grafana:
+    image: grafana/grafana
+    depends_on:
+      - prometheus
+    ports:
+      - 3000:3000
+    networks:
+      - network1
+    volumes:
+      - grafana_data:/var/lib/grafana
+    env_file:
+      - ./grafana/config.monitoring
+    restart: always
+
+  prometheus-aggregator:
+    build: ./prometheus-aggregator
+    ports:
+      - 8191:8191
+    networks:
+      - network1
+    restart: always

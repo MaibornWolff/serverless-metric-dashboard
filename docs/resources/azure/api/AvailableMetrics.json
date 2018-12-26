@@ -1,0 +1,1466 @@
+[
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/BytesReceived",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Data In",
+      "value": "BytesReceived"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Bytes"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/BytesSent",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Data Out",
+      "value": "BytesSent"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Bytes"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/Http5xx",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Http Server Errors",
+      "value": "Http5xx"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/MemoryWorkingSet",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Memory working set",
+      "value": "MemoryWorkingSet"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Bytes"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/AverageMemoryWorkingSet",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Average memory working set",
+      "value": "AverageMemoryWorkingSet"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Bytes"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/FunctionExecutionUnits",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Function Execution Units",
+      "value": "FunctionExecutionUnits"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/FunctionExecutionCount",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Function Execution Count",
+      "value": "FunctionExecutionCount"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/AppConnections",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Connections",
+      "value": "AppConnections"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/Handles",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Handle Count",
+      "value": "Handles"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/Threads",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Thread Count",
+      "value": "Threads"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/PrivateBytes",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Private Bytes",
+      "value": "PrivateBytes"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Bytes"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/IoReadBytesPerSecond",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "IO Read Bytes Per Second",
+      "value": "IoReadBytesPerSecond"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "BytesPerSecond"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/IoWriteBytesPerSecond",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "IO Write Bytes Per Second",
+      "value": "IoWriteBytesPerSecond"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "BytesPerSecond"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/IoOtherBytesPerSecond",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "IO Other Bytes Per Second",
+      "value": "IoOtherBytesPerSecond"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "BytesPerSecond"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/IoReadOperationsPerSecond",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "IO Read Operations Per Second",
+      "value": "IoReadOperationsPerSecond"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "BytesPerSecond"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/IoWriteOperationsPerSecond",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "IO Write Operations Per Second",
+      "value": "IoWriteOperationsPerSecond"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "BytesPerSecond"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/IoOtherOperationsPerSecond",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "IO Other Operations Per Second",
+      "value": "IoOtherOperationsPerSecond"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "BytesPerSecond"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/RequestsInApplicationQueue",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Requests In Application Queue",
+      "value": "RequestsInApplicationQueue"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/CurrentAssemblies",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Current Assemblies",
+      "value": "CurrentAssemblies"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/TotalAppDomains",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Total App Domains",
+      "value": "TotalAppDomains"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/TotalAppDomainsUnloaded",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Total App Domains Unloaded",
+      "value": "TotalAppDomainsUnloaded"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Average",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/Gen0Collections",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Gen 0 Garbage Collections",
+      "value": "Gen0Collections"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/Gen1Collections",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Gen 1 Garbage Collections",
+      "value": "Gen1Collections"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  },
+  {
+    "dimensions": [
+      {
+        "localizedValue": "Instance",
+        "value": "Instance"
+      }
+    ],
+    "id": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>/providers/microsoft.insights/metricdefinitions/Gen2Collections",
+    "isDimensionRequired": false,
+    "metricAvailabilities": [
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:01:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:05:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:15:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "0:30:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "6:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "12:00:00"
+      },
+      {
+        "retention": "93 days, 0:00:00",
+        "timeGrain": "1 day, 0:00:00"
+      }
+    ],
+    "name": {
+      "localizedValue": "Gen 2 Garbage Collections",
+      "value": "Gen2Collections"
+    },
+    "namespace": "Microsoft.Web/sites",
+    "primaryAggregationType": "Total",
+    "resourceGroup": "<resource-group>",
+    "resourceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.Web/sites/<function-app-name>",
+    "supportedAggregationTypes": [
+      "None",
+      "Average",
+      "Minimum",
+      "Maximum",
+      "Total",
+      "Count"
+    ],
+    "unit": "Count"
+  }
+]

@@ -1,0 +1,15 @@
+Replace the <> placeholders and remove these comments at the beginning (json doesn't like comments)
+WEBSITE_SITE_NAME is necessary because the local environment doesn't know to which function app it later get's deployed to
+This is important because WEBSITE_SITE_NAME is used by the serverless-observer library to uniquely identify a function
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "node",
+      "AzureWebJobsStorage": "<storage ConnectionString of the storage containing the images>",
+      "PROMETHEUS_AGGREGATOR_ADDRESS": "tcp://<vmAddress>:8191",
+      "TMP": "temp",
+      "WEBSITE_SITE_NAME": "<function-app-name>",
+      "COSMOSDB_CONNECTION": "<CosmosDB connection string>",
+      "METRICS_ENVIRONMENT": "azure-local"
+    }
+  }

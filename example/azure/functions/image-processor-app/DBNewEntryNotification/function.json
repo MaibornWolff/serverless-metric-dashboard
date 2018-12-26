@@ -1,0 +1,15 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "type": "cosmosDBTrigger",
+            "name": "documents",
+            "direction": "in",
+            "leaseCollectionName": "leases",
+            "connectionStringSetting": "COSMOSDB_CONNECTION",
+            "databaseName": "imagedata",
+            "collectionName": "exif",
+            "createLeaseCollectionIfNotExists": true
+        }
+    ]
+}

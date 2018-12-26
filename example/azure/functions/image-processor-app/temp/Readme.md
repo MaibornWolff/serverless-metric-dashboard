@@ -1,0 +1,1 @@
+This folder only exists so that locally running functions can temporarily save the downloaded images here. They should get deleted unless the function crashes.

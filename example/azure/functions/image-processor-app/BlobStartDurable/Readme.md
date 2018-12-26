@@ -1,0 +1,3 @@
+## function.json
+
+`"connection": "AzureWebJobsStorage"` makes the function look for the storage connection string in the variable "AzureWebJobsStorage" of your app settings. This value defaults to the storage which contains this function app. You can either change the "AzureWebJobsStorage" variable or create a new variable using the `az functionapp config appsettings set` command. This setting can also be changed in the Azure portal. These variables are bound to the function app and remain unchanged unless you remove the whole function app or change it manually as described above. Therefore you don't have to set those settings with each deployment

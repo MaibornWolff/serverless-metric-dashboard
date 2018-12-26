@@ -1,0 +1,3 @@
+You can run the fetchExecutionsUnits.js file with node on the machine which is also running the Prometheus Aggregator. You can execute the fetchExecutionUnits.js using crontab on Ubuntu by adding the line from crontab to /etc/crontab
+
+fetchExecutionsUnits.js uses the Azure CLI instead of the Azure API (because logging in is easier). Therefore you need to install the Azure CLI and login first. This is obviously not recommended for anything else than test environments.
