@@ -1,15 +1,31 @@
 {
   "name": "promces",
   "version": "0.1.0",
-  "description": "",
+  "description": "PromCES: Prometheus Exporter for Serverless applications, exposing cost and performance related metrics of your running functions. No aggregation support!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Roman Buchholz",
-  "license": "",
+  "license": "BSD 2-Clause License",
+  "repository": "github:MaibornWolff/serverless-metric-dashboard",
   "dependencies": {
-    "prom-client": "^11.1.3",
+    "prom-client": "^11.2.1",
     "promes": "^0.1.0"
+  },
+  "keywords": [
+    "serverless",
+    "prometheus",
+    "prometheus-exporter",
+    "monitoring",
+    "azure-functions",
+    "aws-lambda",
+    "google-cloud-functions",
+    "gcp-functions",
+    "metric-exporter",
+    "prom-client"
+  ],
+  "engines": {
+    "node": ">=8.11.1"
   }
 }
