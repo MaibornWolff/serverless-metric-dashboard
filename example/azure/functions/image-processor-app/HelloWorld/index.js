@@ -11,6 +11,7 @@ module.exports = function (context, req) {
             // status: 200, /* Defaults to 200 */
             body: "Hello " + (req.query.name || req.body.name)
         };
+        metrics.logCustomMetric("hello_world_metric", 1, {helloWorld: "HelloWorld"}, false);
     }
     else {
         context.res = {
