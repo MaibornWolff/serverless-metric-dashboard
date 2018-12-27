@@ -68,12 +68,12 @@ This project was initially developed for Microsoft Azure. [Necessary changes for
 - ~~Move scripts to one folder~~
 
 ### Functionalities
-- Add more label options to PromClient library
-- Test PromClient library
+- ~~Add more label options to PromClient library~~
+- ~~Test PromClient library~~
 - ~~Add simple http trigger function to example for testing~~
 - ~~Improve testing http trigger function to just resize an image from the container~~
 - ~~Add timer trigger~~ (skipped because not necessary)
-- Add comments to lib
+- ~~Add comments to lib~~
 
 ### Documentation
 - ~~Update metric ideas~~
