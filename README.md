@@ -84,5 +84,5 @@ This project was initially developed for Microsoft Azure. [Necessary changes for
 - ~~Grafana dashboard import~~
 
 ### Publishing
-- Publish this repository
+- ~~Publish this repository~~
 - Publish node library
