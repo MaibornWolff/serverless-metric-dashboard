@@ -74,12 +74,14 @@ This project was initially developed for Microsoft Azure. [Necessary changes for
 - ~~Improve testing http trigger function to just resize an image from the container~~
 - ~~Add timer trigger~~ (skipped because not necessary)
 - ~~Add comments to lib~~
+- Add RAMTracking to PromCES
+
 
 ### Documentation
 - ~~Update metric ideas~~
 - ~~Change this readme to explain the repository and its structure~~
 - Explain components of metrics server in Readme
-- Expand lib Readme
+- ~~Expand lib Readme~~
 - ~~Explain dumps in resources~~
 - ~~Grafana dashboard import~~
 
