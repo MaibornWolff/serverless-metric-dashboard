@@ -1,0 +1,10 @@
+language: node_js
+
+node_js:
+  - 'stable'
+
+before_install:
+  - "cd lib/node-js/promES"
+  - "npm install"
+
+script: npm test
