@@ -19,7 +19,13 @@ The framework sends data from the serverless function to an aggregator, either w
 
 This repository contains an implementation for Azure Functions with NodeJS including some example functions. The server containing Prometheus, Grafana, Prometheus Pushgateway and Prometheus Aggregator can be automatically deployed in an Azure Virtual Machine.
 
-**Screenshots here**
+![Invocation metrics](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_invocations.png)
+
+![Execution metrics](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_executions2.png)
+
+![Execution and end metrics](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_executions3.png)
+
+![Costs](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_costs.png)
 
 ## Getting Started
 
