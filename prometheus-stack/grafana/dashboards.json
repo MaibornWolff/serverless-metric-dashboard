@@ -16,7 +16,7 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": 1,
-  "iteration": 1545209371264,
+  "iteration": 1546014689466,
   "links": [],
   "panels": [
     {
@@ -209,7 +209,7 @@
       "datasource": null,
       "fill": 1,
       "gridPos": {
-        "h": 9,
+        "h": 11,
         "w": 12,
         "x": 0,
         "y": 10
@@ -340,7 +340,7 @@
       "thresholds": [],
       "timeFrom": null,
       "timeShift": null,
-      "title": "Cost Comparison: Estimated, Calculated Values vs. Actual, Reported Values",
+      "title": "Cost Comparison: Estimated, Calculated Values vs. Actual, Reported Values (3min delay)",
       "tooltip": {
         "shared": true,
         "sort": 0,
@@ -383,7 +383,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 19
+        "y": 21
       },
       "id": 28,
       "panels": [],
@@ -412,7 +412,7 @@
         "h": 3,
         "w": 7,
         "x": 8,
-        "y": 20
+        "y": 22
       },
       "hideTimeOverride": false,
       "id": 16,
@@ -483,7 +483,7 @@
         "h": 13,
         "w": 12,
         "x": 0,
-        "y": 23
+        "y": 25
       },
       "id": 2,
       "legend": {
@@ -568,7 +568,7 @@
         "h": 13,
         "w": 12,
         "x": 12,
-        "y": 23
+        "y": 25
       },
       "id": 4,
       "legend": {
@@ -654,7 +654,7 @@
         "h": 9,
         "w": 12,
         "x": 0,
-        "y": 36
+        "y": 38
       },
       "id": 6,
       "legend": {
@@ -739,12 +739,13 @@
         "h": 9,
         "w": 12,
         "x": 12,
-        "y": 36
+        "y": 38
       },
       "id": 8,
       "legend": {
         "avg": false,
         "current": false,
+        "hideZero": true,
         "max": false,
         "min": false,
         "show": true,
@@ -823,7 +824,7 @@
         "h": 9,
         "w": 12,
         "x": 0,
-        "y": 45
+        "y": 47
       },
       "id": 10,
       "legend": {
@@ -910,12 +911,13 @@
         "h": 9,
         "w": 12,
         "x": 12,
-        "y": 45
+        "y": 47
       },
       "id": 12,
       "legend": {
         "avg": false,
         "current": false,
+        "hideZero": true,
         "max": false,
         "min": false,
         "show": true,
@@ -995,7 +997,7 @@
         "h": 9,
         "w": 12,
         "x": 0,
-        "y": 54
+        "y": 56
       },
       "id": 14,
       "legend": {
@@ -1083,7 +1085,7 @@
         "h": 9,
         "w": 12,
         "x": 12,
-        "y": 54
+        "y": 56
       },
       "id": 18,
       "legend": {
@@ -1167,6 +1169,7 @@
       {
         "allValue": null,
         "current": {
+          "selected": true,
           "tags": [],
           "text": "azure-cloud",
           "value": "azure-cloud"
@@ -1200,7 +1203,7 @@
     ]
   },
   "time": {
-    "from": "now-30m",
+    "from": "now-15m",
     "to": "now"
   },
   "timepicker": {
@@ -1231,5 +1234,5 @@
   "timezone": "",
   "title": "Serverless Dashboard",
   "uid": "FdPcKUfiz",
-  "version": 43
+  "version": 44
 }
