@@ -19,11 +19,21 @@ The framework sends data from the serverless function to an aggregator, either w
 
 This repository contains an implementation for Azure Functions with NodeJS including some example functions. The server containing Prometheus, Grafana, Prometheus Pushgateway and Prometheus Aggregator can be automatically deployed in an Azure Virtual Machine.
 
+### Screenshots
+
+Get an overview of function invocations and their total execution time.
+
 ![Invocation metrics](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_invocations.png)
+
+See which functions did not finish correctly and how long the took on average
 
 ![Execution metrics](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_executions2.png)
 
+Get an overview of function starts
+
 ![Execution and end metrics](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_executions3.png)
+
+Get a cost estimation and import real resource usage data from APIs
 
 ![Costs](https://github.com/MaibornWolff/serverless-metric-dashboard/blob/master/docs/screenshots/Screenshot_costs.png)
 
@@ -56,6 +66,7 @@ This project was initially developed for Microsoft Azure. [Necessary changes for
 - Azure Functions in the Consumption Plan are not able to be part of a VNet ([Issue](https://github.com/Azure/Azure-Functions/issues/840), [Azure Feedback](https://feedback.azure.com/forums/355860-azure-functions/suggestions/15616044-add-vnet-integration)). This means that metrics must be sent to a public address
 - The use of the promES library might increase execution time and resource usage of your function. However, the impact of the library in its current form should be minimal if you don't track the RAM-usage of your function. Enabling UDP instead of TCP might also increase the performance of the library.
 - The Prometheus Aggregator by peterbourgon is only a temporary solution. Several other aggregators for Prometheus exist but there is currently no standardised solution. I decided to use Prometheus Aggregator because is it easy to use with TCP/UDP and a lightweight Go application
+- The Prometheus Aggregator can not persist the aggregated data. It gets lost when you restart the Prometheus Aggregator
 
 ## Todo
 ### Deployment Automation
