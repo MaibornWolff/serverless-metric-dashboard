@@ -1,6 +1,6 @@
 {
   "name": "promes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PromES: Prometheus Exporter for Serverless applications, exposing cost and performance related metrics of your running functions",
   "main": "src/index.js",
   "scripts": {
