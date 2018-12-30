@@ -12,7 +12,7 @@ No-dependency package to push metrics to [prometheus-aggregator](https://github.
 - Install promES via npm and make sure that the node_modules folder gets deployed to the cloud (might depend on deployment method and provider)
 
 ### Use The Library
-An easy example can be found in the Azure Example [Hello World function](example/azure/functions/image-processor-app/HelloWorld/index.js).
+An easy example can be found in the Azure example [Hello World function](example/azure/functions/image-processor-app/HelloWorld/index.js).
 
 The current implementation supports the following metrics (all metrics are sent immediately):
 
