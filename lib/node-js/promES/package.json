@@ -1,13 +1,13 @@
 {
   "name": "promes",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "PromES: Prometheus Exporter for Serverless applications, exposing cost and performance related metrics of your running functions",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "Roman Buchholz",
-  "license": "BSD 2-Clause License",
+  "license": "BSD-2-Clause",
   "repository": "github:MaibornWolff/serverless-metric-dashboard",
   "keywords": [
     "serverless",
