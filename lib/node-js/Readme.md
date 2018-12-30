@@ -33,9 +33,15 @@ You can use the azureMetadataManager as an example. Required methods are:
 Feel free to create a Pull Request with your implementation!
 
 ## promCES
-Library which can push invocation specific metrics to the Prometheus Pushgateway using the Prometheus Client library (prom-client) for nodeJS.
+Prometheus Client Exporter for Serverless: Library which can push invocation specific metrics to the Prometheus Pushgateway using the Prometheus Client library (prom-client) for nodeJS.
 
 The library is currently only implemented for Microsoft Azure Functions. To use other providers, you only need to add a new metadataManager implementation. See [Metadata Manager Part 2](#Metadata-Manager-part-2) for details.
+
+### Limitations of the official Prometheus Pushgateway
+
+The Prometheus Pushgateway has no aggregating functionality and is not intended to be anything else than a metrics cache ([link](https://github.com/prometheus/pushgateway#non-goals)). It simply caches the typical /metrics page of an application. These metrics will be cached for ever unless the Pushgateway is restarted or the metrics are overridden by a job with the same name. If you push metrics to the Pushgateway, for example by using a Prometheus Client implementation, you have to provide a job name. This job name is used for two things: The job name is included as a "job" label and it defines which labels will be overridden at a push. The prom-client library has two options: push() which deletes all metrics with the provided job name and adds the newly pushed labels. pushAdd() only deletes metrics with identical labels and the same metric name. Therefore, if you want to push metrics from a Serverless function to the Pushgateway you have to choose a unique job name. Otherwise simultaneously running functions will override their metrics. A single metric, which tracks the total amount of function invocations, is not possible if you use the Prometheus Pushgateway.
+
+You can also push invocation specific metrics by adding a job label in PromES. Thus the PromCES library is not really necessary but it demonstrates how the prom-client library could be used for example for longer running functions.
 
 ### Requirements
 
