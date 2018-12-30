@@ -72,3 +72,9 @@ This example for Azure contains the following elements:
 4. Create a virtual machine using `create-vm.sh` which will contain Prometheus, Grafana and components necessary to push metrics to Prometheus. You will be prompted to enter your password at the end of the script to copy the prometheus-stack folder to the VM. The virtual machine uses the cheapest VM size available (should cost below 5$ per month or even less although it runs 24/7). The VM is not very fast but sufficient for Prometheus and Grafana. You can skip this step if you already have a server which can open ports so the functions can push metrics to Prometheus
 
 5. Verify that Prometheus is working by opening `<vm-address>:9090`. You should be able to see the Prometheus UI. It might take some minutes until Prometheus is ready after starting the stack.
+
+## Delete Resources
+
+The easiest way to delete all resources is by deleting the whole resource group. You can do this either by using the Azure Portal or the Azure CLI.
+
+The Azure Functions example and the VM are in different resource groups. You can find the names of the resource groups in optional-settings.properties.
