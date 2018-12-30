@@ -24,8 +24,8 @@ The current implementation supports the following metrics (all metrics are sent 
 
 You can use the azureMetadataManager as an example. Required methods are:
 - getDefaultLabels() returning a JSON object with labels for Prometheus in key-value format. Prometheus Aggregator sums the values of a metric if the label values of a metric are identical. The default labels are used for basic logFunctionStart/End metrics and can be optionally used for custom metrics. The labels should enable a clear distinction between the different functions. Because Azure groups functions in Function Apps a function_app label is required. This might not be necessary for your provider.
-- getInvocationId() should exist in case you want to send metrics which should not be aggregated. The invocation ID should be a unique identifier for the current execution of the Function. This method is required for PromCES.
-- getAggregatorUrlEnv() to read the address to Prometheus Aggregator from an environment variable. (getGatewayUrlEnv is only necessary for promCES)
+- getInvocationId() should exist in case you want to send metrics which should not be aggregated. The invocation ID should be a unique identifier for the current execution of the Function. This method is required for [PromCES](https://www.npmjs.com/package/promces).
+- getAggregatorUrlEnv() to read the address to Prometheus Aggregator from an environment variable. (getGatewayUrlEnv is only necessary for [promCES](https://www.npmjs.com/package/promces))
 - a log() function which ideally allows any amount of parameters just like console.log()
 
 Feel free to create a Pull Request with your implementation!

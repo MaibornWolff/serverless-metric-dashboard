@@ -46,7 +46,7 @@ You can also push invocation specific metrics by adding a job label in PromES. T
 ### Requirements
 
 - npm packages promES, promCES and prom-client. Make sure that the node_modules folder gets deployed to the cloud (might depend on deployment method and provider)
-- Address to the Prometheus Aggregator as environment variable `"PUSHGATEWAY_ADDRESS"` in url format `http://address:port`. Environment variables for Azure Functions can be set in the Function App (Platform Features -> Application Settings) or via Azure CLI (e.g. `az functionapp config appsettings set ... --settings PUSHGATEWAY_ADDRESS=<address>`). You can also pass the address to the constructor of FunctionMetrics
+- Address to the Prometheus Pushgateway as environment variable `"PUSHGATEWAY_ADDRESS"` in url format `http://address:port`. Environment variables for Azure Functions can be set in the Function App (Platform Features -> Application Settings) or via Azure CLI (e.g. `az functionapp config appsettings set ... --settings PUSHGATEWAY_ADDRESS=<address>`). You can also pass the address to the constructor of FunctionMetrics
 
 ### Use The Library
 An example can be found in the Azure Example [PromClientExample function](example/azure/functions/image-processor-app/PromClientExample/index.js).
