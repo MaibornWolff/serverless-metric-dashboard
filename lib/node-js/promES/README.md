@@ -1,7 +1,6 @@
 # NodeJS Prometheus Exporter for Serverless
 
-- [promES](#promES): no-dependency library to push metrics to [Prometheus Aggregator](https://github.com/peterbourgon/prometheus-aggregator), an aggregating pushgateway.
-- [Performance Considerations](#Performance-Considerations)
+This package is part of [Serverless Metrics Dashboard (Github)](https://github.com/MaibornWolff/serverless-metric-dashboard). You need a server component to push your metrics to. A guide and an example can be found on the linked [Github page](https://github.com/MaibornWolff/serverless-metric-dashboard).
 
 ## promES
 Prometheus Exporter for Serverless
