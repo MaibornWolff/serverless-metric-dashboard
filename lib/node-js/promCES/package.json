@@ -11,7 +11,7 @@
   "repository": "github:MaibornWolff/serverless-metric-dashboard",
   "dependencies": {
     "prom-client": "^11.2.1",
-    "promes": "^0.1.0"
+    "promes": "^0.1.3"
   },
   "keywords": [
     "serverless",
