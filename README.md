@@ -1,4 +1,5 @@
 # Serverless Metric Dashboard For Prometheus
+[![Build Status](https://travis-ci.com/MaibornWolff/serverless-metric-dashboard.svg?branch=master)](https://travis-ci.com/MaibornWolff/serverless-metric-dashboard)
 
 ## Jump to Section
 
