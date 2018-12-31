@@ -7,4 +7,6 @@ npm install
 
 func extensions install
 
+cd ../..
+
 source upload-images-http.sh
