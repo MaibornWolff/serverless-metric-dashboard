@@ -35,11 +35,11 @@ This example for Azure contains the following elements:
 
 1. Create an Azure subscribtion (you can get 1 month for free, no credit card necessary)
 
-2. Install .net Core [download](https://dotnet.microsoft.com/download)
+2. (Optional if you want to edit and deploy functions for yourself) Install .net Core [download](https://dotnet.microsoft.com/download)
 
 3. Install the Azure CLI, download: [Link](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest). The Azure CLI is necessary to manage all resources on Azure for this example without requiring the Azure Portal
 
-4. Install the Azure Functions Core Tools, download: [Link](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools). Necessary to deploy the function app to Azure and can be used to execute the function app locally
+4. (Optional if you want to edit and deploy functions for yourself) Install the Azure Functions Core Tools, download: [Link](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools). Necessary to deploy the function app to Azure and can be used to execute the function app locally
 
 5. Login to the Azure CLI using `az login`. This should open a new tab in the default browser and you will be asked to login. Alternative ways to login can be found [here](https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli?view=azure-cli-latest).
 
@@ -53,9 +53,9 @@ This example for Azure contains the following elements:
 
 10. Get the CosmosDB Connection String manually from the Azure Portal (not possible with Azure CLI due to current bug). You can find the connection string in the Cosmos DB Account in the Azure Portal at: Click on "Azure Cosmos DB" on the left side (if not visible use search at the top). Select the serverless example database (should be the only cosmos db). Then select Keys in the Settings section. Copy the value of `PRIMARY CONNECTION STRING`. Set the connection string in `required-settings.properties` at `cosmosConnectionString`.
 
-11. Run `setup-function-app.sh` to set the necessary environment variables for the function app in the cloud. These variables contain the addresses for pushing metrics and the CosmosDB connection string. It also installs all necessary node modules and installs the Azure Function Extensions
+11. Run `setup-function-app.sh` to set the necessary environment variables for the function app in the cloud. These variables contain the addresses for pushing metrics and the CosmosDB connection string. It also uploads the latest function release
 
-12. Now deploy the actual function content by running `deploy-function-app.sh`. This zips the image-processor-app content and uploads it to Azure. Azure runs the function app from the package. Therefore you can be sure that the correct app content gets executed.
+12. (Optional if you want to deploy a modified version of the example functions. Requires npm, dotnet core and azure function core tools) Deploy the function content by running `deploy-function-app.sh`. This zips the image-processor-app content and uploads it to Azure. Azure runs the function app from the package. Therefore you can be sure that the correct app content gets executed.
 
 13. Open Grafana: In the browser type `<vm-address>:3000` with your VM address and login to Grafana with username 'admin' and password 'foobar' unless changed in prometheus-stack/grafana/config.monitoring. First go to settings and add the data source Prometheus with the address `http://prometheus:9090`. Set the scrape interval to 5s. Save the data source. To add a dashboard, mouseover the plus sign on the left side and select 'Import' and paste the content of grafana_dashboards.json (or just upload the file).
 
