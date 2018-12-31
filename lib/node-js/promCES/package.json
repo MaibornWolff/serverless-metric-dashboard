@@ -1,7 +1,7 @@
 {
   "name": "promces",
   "version": "0.1.0",
-  "description": "PromCES: Prometheus Exporter for Serverless applications, exposing cost and performance related metrics of your running functions. No aggregation support!",
+  "description": "PromCES: Prometheus Client Exporter for Serverless applications, exposing cost and performance related metrics of your running functions. No aggregation support!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
