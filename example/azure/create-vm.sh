@@ -10,6 +10,7 @@ az vm open-port --port 9090 --name $vmName --resource-group $vmResourceGroup --p
 az vm open-port --port 9091 --name $vmName --resource-group $vmResourceGroup --priority 320
 az vm open-port --port 8191 --name $vmName --resource-group $vmResourceGroup --priority 330
 az vm open-port --port 3000 --name $vmName --resource-group $vmResourceGroup --priority 340
+sleep 120
 scp -r -i vm-key ../../prometheus-stack $vmAccountName@$vmAddress:/home/$vmAccountName/prometheus-stack
 ssh -i vm-key $vmAccountName@$vmAddress "sudo docker-compose -f prometheus-stack/docker-compose.yml up -d"
 echo "Check that the Virtual Machine and Prometheus are working by opening $vmAddress:9090 in you web browser"
