@@ -43,7 +43,7 @@ This example for Azure contains the following elements:
 
 5. Login to the Azure CLI using `az login`. This should open a new tab in the default browser and you will be asked to login. Alternative ways to login can be found [here](https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli?view=azure-cli-latest).
 
-6. Set all settings in `required-settings.properties` file apart from cosmosConnectionString. These settings need to be changed because Azure requires unique resource names in some cases. Other settings like the deployment location can be modified in `optional-settings.properties`.
+6. Set all settings in [required-settings.properties](required-settings.properties) file apart from cosmosConnectionString. These settings need to be changed because Azure requires unique resource names in some cases. Other settings like the deployment location can be modified in [optional-settings.properties](optional-settings.properties).
 
 7. Run `create-resources.sh` in the functions/image-processor directory. The script will create all necessary resources for the function example to work. The script uses the Azure CLI. Azure CLI commands wait until the resource deployment is finished which can take several minutes in some cases (especially Azure CosmosDB). The script will ask you to directly continue with the VM setup (see next step).
 
@@ -57,9 +57,9 @@ This example for Azure contains the following elements:
 
 12. (Optional if you want to deploy a modified version of the example functions. Requires npm, dotnet core and azure function core tools) Deploy the function content by running `deploy-function-app.sh`. This zips the image-processor-app content and uploads it to Azure. Azure runs the function app from the package. Therefore you can be sure that the correct app content gets executed.
 
-13. Open Grafana: In the browser type `<vm-address>:3000` with your VM address and login to Grafana with username 'admin' and password 'foobar' unless changed in prometheus-stack/grafana/config.monitoring. First go to settings and add the data source Prometheus with the address `http://prometheus:9090`. Set the scrape interval to 5s. Save the data source. To add a dashboard, mouseover the plus sign on the left side and select 'Import' and paste the content of grafana_dashboards.json (or just upload the file).
+13. Open Grafana: In the browser type `<vm-address>:3000` with your VM address and login to Grafana with username 'admin' and password 'foobar' unless changed in prometheus-stack/grafana/config.monitoring. First go to settings and add the data source Prometheus with the address `http://prometheus:9090`. Set the scrape interval to 5s. Save the data source. To add a dashboard, mouseover the plus sign on the left side and select 'Import' and paste the content of [grafana_dashboards.json](grafana_dashboards.json) (or just upload the file).
 
-14. Run `upload-images-durable.sh` or `upload-images-loose.sh` to upload the test images to Azure blob storage. They will then be processed which you can see in Grafana. Azure Blob Triggers can take up to 10 minutes until they trigger.
+14. Run `upload-images-durable.sh` or `upload-images-queue.sh` to upload the test images to Azure blob storage. They will then be processed which you can see in Grafana. Azure Blob Triggers can take up to 10 minutes until they trigger.
 
 ### Step By Step VM Only
 
