@@ -1,4 +1,11 @@
-# Deploy the Serverless Example Case
+# Deploy and Use the Serverless Example Case
+
+- [What does it do?](#what-does-it-do)
+- [Important notice on costs](#important-notice-on-costs)
+- [Architecture of the Serverless Example](#architecture-of-the-serverless-example)
+- [How to deploy](#how-to-deploy)
+- [Use the example functions](#use-the-example-functions)
+- [Delete Resources](#delete-resources)
 
 ## What does it do?
 
@@ -76,6 +83,16 @@ All mentioned files are located in the same directory as this Readme.
 4. Create a virtual machine using `create-vm.sh` which will contain Prometheus, Grafana and components necessary to push metrics to Prometheus. You will be prompted to enter your password at the end of the script to copy the prometheus-stack folder to the VM. The virtual machine uses the cheapest VM size available (should cost below 5$ per month or even less although it runs 24/7). The VM is not very fast but sufficient for Prometheus and Grafana. You can skip this step if you already have a server which can open ports so the functions can push metrics to Prometheus
 
 5. Verify that Prometheus is working by opening `<vm-address>:9090`. You should be able to see the Prometheus UI. It might take some minutes until Prometheus is ready after starting the stack.
+
+## Use the example functions
+
+There are currently six different types of example cases you can trigger:
+- A simple HelloWorld function which can be used to test if the framework is working (simply invoke `https://<function-app-name>.azurewebsites.net/api/HelloWorld` in a browser)
+- An image resizer with a http trigger. Looks for images in the `images-unprocessed-http` container in the storage account an randomly picks one to resized. The resized image will be saved in the `images-processed-http` container. Function can be invoked using `https://<function-app-name>.azurewebsites.net/api/ImageResizerHttp?size=200`
+- A queue based image processer which is triggered when a jpg-file is uploaded to the BLOB container `images-unprocessed-loose`. The function resizes the image into 3 different sizes and also extracts some of the EXIF data contained in the image. Processed images are being saved in `images-processed-loose`. You can upload images to start the function using the [upload-images-queue.sh script](upload-images-queue.sh).
+- A durable functions based resizer, can be used in the same way like the queue based one. Does not work if deployed directly from a zip into a new function app. Reason is unknown
+- StorageCleaner, deleting files in `images-unprocessed-loose` and `images-unprocessed-durable` if they are older than one hour. Can be invoked using `https://<function-app-name>.azurewebsites.net/api/StorageCleaner`.
+- PromClientExample, can be invoked using `https://<function-app-name>/api/PromClientExample`. A hello world function to show that promCES works
 
 ## Delete Resources
 
