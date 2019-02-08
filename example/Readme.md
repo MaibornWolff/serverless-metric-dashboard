@@ -8,4 +8,4 @@ This example is available for JavaScript for Azure Functions. A step-by-step gui
 
 ## Images
 
-Some copyright-free images to test the example functions.
+Some copyright-free images to test the example functions. The images were provided by pixabay.com and are licensed under the [Pixabay License](https://pixabay.com/en/service/license/).
