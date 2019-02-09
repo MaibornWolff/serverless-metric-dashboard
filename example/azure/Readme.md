@@ -6,6 +6,7 @@
 - [How to deploy](#how-to-deploy)
 - [Use the example functions](#use-the-example-functions)
 - [Delete Resources](#delete-resources)
+- [License and Copyright notice](#license-and-copyright-notice)
 
 ## What does it do?
 
@@ -99,3 +100,7 @@ There are currently six different types of example cases you can trigger:
 The easiest way to delete all resources is by deleting the whole resource group. You can do this either by using the Azure Portal or the Azure CLI.
 
 The Azure Functions example and the VM are in different resource groups. You can find the names of the resource groups in optional-settings.properties.
+
+## License and Copyright notice
+
+The image resizing functionality was adapted from an official [Azure example](https://github.com/Azure-Samples/storage-blob-resize-function-node) which is licensed under the [MIT License](https://github.com/Azure-Samples/storage-blob-resize-function-node/blob/master/LICENSE.md).
